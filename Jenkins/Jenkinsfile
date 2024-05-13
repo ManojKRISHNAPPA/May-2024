@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "am Deploying the image in the k8"'
+                sh 'echo "am Deploying the image in the kube"'
             }
         }
     }
